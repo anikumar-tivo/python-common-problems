@@ -58,12 +58,12 @@ def print_content(contents):
 
 if __name__ == "__main__":
     # Normal listing
-    dir_contents = ldir("/Users/anikumar/workplace/python-common-problems")
+    dir_contents = ldir("your/directory/path")
     print_content(dir_contents)
 
     # Listing content including sub-dircteories
     dir_content_with_subdir = ldir(
-        "/Users/anikumar/workplace/python-common-problems",
+        "your/directory/path",
          subdirectories=True
     )
     print_content(dir_content_with_subdir)
